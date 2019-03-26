@@ -1,0 +1,60 @@
+body {
+    background: #F5D9D5;
+    font-family: "Nunito", sans-serif;
+}
+
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .navbar-brand {
+    color: #EA1C2C;
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    color: #EA1C2C;
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.slash {
+    color: #EA1C2C;
+    font-weight: 300;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.kaboom h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #EA1C2C;
+}
+
+.kaboom p {
+    color: #f4a0c2;
+    font-weight: 100;
+    line-height: 2;
+    font-size: 1.125rem;
+}
+
+.navbar.scrolled {
+    background: rgba(222, 192, 222, 0.9);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    .content h2 {
+        font-size: 3rem;
+    }
+}
