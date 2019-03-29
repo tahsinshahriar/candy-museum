@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse d-md-flex justify-content-end" id="navLinks">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#showcase" class="nav-link px-3 scroll">HOME</a>
+                    <a href="#showcase" class="nav-link px-3">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link px-3 scroll">ABOUT</a>
+                    <a href="#about" class="nav-link px-3">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link pl-3 scroll">TICKETS</a>
+                    <a href="#contact" class="nav-link pl-3">TICKETS</a>
                 </li>
             </ul>
         </div>
@@ -161,6 +161,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
     <script>
         $(function() {
             $(document).scroll(function() {
@@ -169,20 +170,8 @@
             });
         });
     </script>
-
-    <!-- <script>
-        $(document).ready(function() {
-
-            var scrollLink = $('.scroll');
-
-            //smooth scrollling
-            scrollLink.click(function(event) {
-                event.preventDefault();
-                $('body,html').animate({
-                    scrollTop: $(this.hash).offset().showcase
-                }, 1000);
-            });
-        });
-    </script> -->
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
 </body></html>
