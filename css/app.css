@@ -50,8 +50,13 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgba(222, 192, 222, 0.9);
+    background: #fff;
     transition: background 500ms;
+}
+
+#contact {
+    height: 60vh;
+    margin-top: 100px;
 }
 
 .bg-contact {
@@ -64,8 +69,9 @@ body {
     color: #754A43;
 }
 
-.form-control{
+.form-field{
     border-radius: 10px;
+    padding: 13px 10px;
 }
 
 .btn-info {
