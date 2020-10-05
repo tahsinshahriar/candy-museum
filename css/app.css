@@ -33,7 +33,7 @@ body {
 }
 
 .margin-top {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .about h2 {
@@ -54,11 +54,6 @@ body {
     transition: background 500ms;
 }
 
-#contact {
-    height: 60vh;
-    margin-top: 100px;
-}
-
 .bg-contact {
     background: url(imgs/contact.jpg) bottom center/cover no-repeat;
 }
@@ -72,6 +67,10 @@ body {
 .form-field{
     border-radius: 10px;
     padding: 13px 10px;
+}
+
+.button{
+    padding-top: 30px;
 }
 
 .btn-info {
